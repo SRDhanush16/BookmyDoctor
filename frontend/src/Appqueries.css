@@ -1,0 +1,50 @@
+
+@media only screen and (max-width: 750px)  {
+    html {
+        font-size: 40%;
+    }
+
+    .Home-container div{
+        margin-top: 20%;
+    }
+
+    .Home-container ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .Home-container ul li{
+        margin-bottom: 10rem;
+    }
+    .book-appointments{
+        max-width: 90%;
+    }
+    .crtAcc-container{
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    html{
+        font-size: 40%;
+    }
+    .book-appointments{
+        max-width: 90%;
+    }
+
+    .book-appointments form label{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .crtAcc-container{
+        max-width: 90%;
+    }
+    .crtAcc-container form label{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+

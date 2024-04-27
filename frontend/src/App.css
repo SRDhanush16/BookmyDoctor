@@ -1,0 +1,319 @@
+
+
+.Home-container h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+}
+
+.Home-container div{
+    padding: 3rem 20% 0; /* 3rem top, 0 right and left, no padding bottom */
+    text-align: center;
+}
+
+.Home-container ul{
+    
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    
+}
+
+.Home-container ul li{
+    text-decoration: none;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.login-icon-desc{
+    font-size: 2.4rem;
+    color: black;
+}
+
+.login-icon{
+    font-size: 15rem;  
+    margin-bottom: 2rem;  
+}
+
+/**************************/
+/* for Users and Doctors Login page  */
+/**************************/
+
+/* .usrlg-card{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.usrlg-card{
+    text-align: center;
+}
+
+.usrlg-card h2{
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+} */
+
+.usrlg-card {
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.usrlg-card h2 {
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+}
+
+.usrlg-card p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.usrlg-card label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.usrlg-card label span {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    
+}
+
+.usrlg-card input {
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+}
+
+.usrlg-card button {
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 2rem 0rem;
+}
+
+.usrlg-card button:hover {
+    background-color: #0056b3;
+}
+
+.usrlg-card a {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.usrlg-card a:hover {
+    text-decoration: underline;
+}
+
+/**************************/
+/* DoctorPage */
+/**************************/
+
+.logout-bar{
+    text-align: right;
+    padding-right: 5%;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.doc-container h2{
+    margin: 3rem 0;
+    text-align: center;
+    font-size: 2.4rem;
+
+}
+
+.doc-patients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    background-color: #f0f0f0;
+    padding: 2rem;
+}
+
+.doc-appointments {
+    max-width: 800px;
+    width: 100%;
+}
+
+.appointmentcard {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+
+.appointmentcard p {
+    margin-bottom: 10px;
+}
+
+.appointmentcard button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.appointmentcard button:hover {
+    background-color: #0056b3;
+}
+
+/**************************/
+/* UserPage */
+/**************************/
+
+.usrpg-container h2{
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 3rem 0;
+}
+
+.usrpg-container .appointmentcard{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+
+}
+.usr-appointments{
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+    border-bottom:lightgray solid 2px;
+}
+
+
+.book-appointments {
+    max-width: 40rem;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.8rem;
+}
+
+.book-appointments h4 {
+    margin-top: 0;
+}
+
+.book-appointments form {
+    display: grid;
+    gap: 1rem;
+}
+
+.book-appointments label {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem;
+}
+
+.book-appointments input,
+.book-appointments select,
+.book-appointments button {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.book-appointments button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+}
+
+.book-appointments button:hover {
+    background-color: #0056b3;
+}
+
+.book-appointments p {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+/**************************/
+/* Create Account*/
+/**************************/
+
+
+.crtAcc-container {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem; /* Add margin-top for spacing */
+    font-size: 1.8rem;
+}
+
+.crtAcc-card h2 {
+    margin-top: 0;
+    font-size: 2.4rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.crtAcc-card form {
+    display: grid;
+    gap: 1rem;
+}
+
+.crtAcc-card label {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem;
+}
+
+.crtAcc-card input,
+.crtAcc-card button {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.crtAcc-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+}
+
+.crtAcc-card button:hover {
+    background-color: #0056b3;
+}
+
+.crtAcc-card p {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
